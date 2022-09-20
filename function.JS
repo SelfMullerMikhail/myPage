@@ -1,3 +1,5 @@
+"use strict"
+
 const headBlockButtom = document.querySelectorAll(".headBlockButtom")
 
 document.addEventListener("mouseover", el => {

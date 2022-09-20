@@ -49,11 +49,17 @@ a {
 #hero h1 {
     display: block;
     width: fit-content;
-    font-size: 4rem;
+    /* left: -150%; */
+    font-size: 5rem;
     position: relative;
-    color: white;
+    color: whitesmoke;
     animation: text_reveal 1s ease forwards;
     animation-delay: 1.5s;
+}
+
+#hero .container {
+    position: relative;
+
 }
 
 #hero h1 span {
@@ -77,7 +83,7 @@ a {
     text-transform: uppercase;
     letter-spacing: .1rem;
     margin-top: 30px;
-    transition: .3s ease;
+    transition: .4s ease;
     transition-property: background-color, color;
 }
 
@@ -87,49 +93,93 @@ a {
     background-color: crimson;
 }
 
-@keyframes text_reveal_box {
-    50% {
-        width: 100%;
-        height: 0%;
-    }
-
-    100% {
-        width: 0%;
-        left: 100%;
-    }
-}
-
-/* @keyframes text_reveal {
-    100% {
-        color: white;
-        background-color: crimson;
-    }
-} */
-.headBlock {
-    margin-top: 1%;
+.menu {
+    display: flex;
     position: absolute;
-    right: 10%;
-    width: max-content;
-    vertical-align: top;
-    width: 25%;
+    right: 2%;
+    top: -2%;
+    opacity: 0;
+    animation: show 4s 1;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    z-index: 1;
 }
 
-.headBlock div {
-    margin-left: 10px;
+.menu li {
+    position: relative;
+    z-index: 3;
     display: inline-block;
-    margin-right: 3%;
+    /* border: 1px solid red; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 50px;
+    /* width: 30%;
+    height: 5%; */
+
+
 }
 
-.headBlockButtom {
-    font-size: 250%;
-    color: white;
-}
-
-.contactMenu {
-    font-size: 200%;
-    margin-top: 3%;
+.menu div {
     position: absolute;
-    right: 28%;
-    background-color: azure;
-    font-family: Arial;
+    border: 1px solid crimson;
+    visibility: hidden;
+
+}
+
+.menu a {
+    display: block;
+    text-align: left;
+    font-size: 300%;
+    color: white;
+    /* border: 1px solid black; */
+}
+
+.menu ul {
+    position: relative;
+    visibility: hidden;
+    font-size: 150%;
+    margin: 5px;
+    text-transform: uppercase;
+    color: whitesmoke;
+
+
+}
+
+.menu ul:hover {
+    color: crimson;
+}
+
+.menu li:hover a {
+    color: crimson;
+}
+
+.menu li:hover ul {
+    visibility: visible;
+}
+
+.menu li:hover div {
+    visibility: visible;
+}
+
+.myNameIs {
+    opacity: 0;
+    transition: 1s;
+    animation: show 3s 1;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    position: absolute;
+    left: 3%;
+    top: 55%;
+}
+
+@keyframes show {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
