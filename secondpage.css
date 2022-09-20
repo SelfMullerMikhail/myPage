@@ -1,0 +1,29 @@
+#section1 {
+    content: "";
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/73bc3888bfd22d73777858036621b3ef.jpg);
+    position: relative;
+    background-color: black;
+    z-index: -1;
+
+}
+
+#section1::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .7;
+    z-index: -1;
+}
+
+.bigtest {
+    position: sticky;
+    background-color: black;
+    top: 0;
+    z-index: 2;
+}
