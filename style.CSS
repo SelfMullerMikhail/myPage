@@ -1,3 +1,6 @@
+/* /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap') */
+@import url();
+
 * {
     padding: 0;
     margin: 0;
@@ -109,23 +112,19 @@ a {
     margin-left: 20px;
     margin-right: 10px;
     margin-top: 50px;
-
-
 }
 
 .menu div {
     position: absolute;
     border: 1px solid crimson;
     visibility: hidden;
-
 }
 
-.menu a {
+.head {
     display: block;
     text-align: left;
     font-size: 300%;
     color: white;
-    /* border: 1px solid black; */
 }
 
 .menu ul {
@@ -135,9 +134,8 @@ a {
     margin: 5px;
     text-transform: uppercase;
     color: whitesmoke;
-
-
 }
+
 
 .menu ul:hover {
     color: crimson;
