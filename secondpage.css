@@ -166,9 +166,9 @@
 /* HOBBY SPACE */
 
 .s2p4photo1 {
-    width: 60%;
-    height: 70%;
-    left: 33%;
+    width: 55%;
+    height: 65%;
+    left: 37%;
     top: 15%;
     background-image: url(img/hobby/space/2022-09-22_21-00-05.png);
 }
@@ -439,7 +439,7 @@
     height: 15%;
     left: 58%;
     top: 6%;
-    background-image: url(img/skills/Python/2022-09-26_13-14-03.png);
+    background-image: url(img/skills/Python/2022-09-27_00-14-39.png);
 }
 
 
@@ -448,7 +448,7 @@
     height: 15%;
     left: 74%;
     top: 6%;
-    background-image: url(img/skills/Python/2022-09-26_12-48-41.png);
+    background-image: url(img/skills/Python/2022-09-27_00-10-59.png);
 }
 
 
@@ -459,6 +459,15 @@
     top: 22%;
     background-image: url(img/skills/Python/2022-09-26_12-52-02.png);
 }
+
+.s4p1photo5 {
+    width: 15%;
+    height: 15%;
+    left: 58%;
+    top: 22%;
+    background-image: url(img/skills/Python/2022-09-26_12-48-41.png);
+}
+
 
 /* SKILLS HTML CSS */
 
@@ -529,7 +538,7 @@
     height: 15%;
     left: 42%;
     top: 6%;
-    background-image: url(img/education/school/diploma1.jpeg);
+    background-image: url(img/education/school/Аттестат2.jpeg);
 }
 
 .s5p1photo2 {
@@ -537,7 +546,7 @@
     height: 15%;
     left: 58%;
     top: 6%;
-    background-image: url(img/education/school/diploma2.jpeg);
+    background-image: url(img/education/school/Аттестат3.jpeg);
 }
 
 .s5p1photo3 {
@@ -562,6 +571,14 @@
     left: 58%;
     top: 22%;
     background-image: url(img/education/school/photo3.jpg);
+}
+
+.s5p1photo6 {
+    width: 15%;
+    height: 15%;
+    left: 74%;
+    top: 22%;
+    background-image: url(img/education/school/sprot.jpg);
 }
 
 
@@ -657,6 +674,23 @@
     background-image: url(img/education/geekbrains/6.png);
 }
 
+.s5p3photo7 {
+    width: 15%;
+    height: 15%;
+    left: 42%;
+    top: 38%;
+    background-image: url(img/education/geekbrains/7.png);
+
+}
+
+.s5p3photo8 {
+    width: 15%;
+    height: 15%;
+    left: 58%;
+    top: 38%;
+    background-image: url(img/education/geekbrains/8.png);
+}
+
 
 
 /* ---- */
@@ -691,7 +725,7 @@
 }
 
 .bartenderJobs h1 {
-    color: whitesmoke;
+    color: burlywood;
 }
 
 .bartenderJobs span {

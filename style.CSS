@@ -45,6 +45,69 @@ a {
     z-index: -1;
 }
 
+#hobby {
+    background-image: url(img/b-190.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+#hobby::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .5;
+    z-index: -1;
+}
+
+#section4 {
+    background-image: url(img/Оригинал_\ 1920x1200.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+#section4::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .5;
+    z-index: -1;
+}
+
+
+#section5 {
+    background-image: url(img/1624471284_15-phonoteka_org-p-oboi-minimalizm-priroda-krasivo-15.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+#section5::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .5;
+    z-index: -1;
+}
+
+
+
 #hero h1 {
     display: block;
     width: fit-content;
@@ -96,8 +159,8 @@ a {
     position: absolute;
     right: 2%;
     top: -2%;
-    opacity: 1;
-    /* animation: show 4s 1; */
+    opacity: 0;
+    animation: show 4s 1;
     animation-fill-mode: forwards;
     animation-delay: 1s;
     z-index: 1;
