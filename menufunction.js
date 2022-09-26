@@ -6,6 +6,8 @@ const instagramm = document.querySelector(".instagramm");
 const whatsapp = document.querySelector(".whatsapp");
 const number = document.querySelector(".number");
 const github = document.querySelector('.github')
+const linkedin = document.querySelector(".linkedin")
+const hhanter = document.querySelector(".hhanter")
 
 
 function copyHidden(el, time) {
@@ -31,6 +33,14 @@ whatsapp.addEventListener("click", () => {
     window.open("https://wa.me/79996149718", "_blank");
 })
 
+linkedin.addEventListener("click", () => {
+    window.open("https://www.linkedin.com/in/mihail-kornyushenko-864734233/", "_blank");
+})
+
+hhanter.addEventListener("click", () => {
+    window.open("https://hh.ru/resume/f984a146ff0b280d290039ed1f5a3263745a67", "_blank")
+})
+
 
 
 github.addEventListener("click", () => {
@@ -45,3 +55,14 @@ number.addEventListener("click", () => {
     copyHidden(number.children[1], 15000);
 
 })
+
+// const expiriencePhoto = document.querySelectorAll(".expiriencePhoto");
+
+// console.log(expiriencePhoto)
+// document.addEventListener("mouseover", el => {
+//     if (!el.target.classList.contains("expiriencePhoto")) {
+//         return;
+//     }
+//     console.log(el);
+//     el.style.x = "100";
+// })

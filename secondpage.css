@@ -422,7 +422,101 @@
     background-image: url(img/expirience/SellesManager//2022-09-25_21-56-54.png);
 }
 
+/* SKILLS */
 
+
+/* SKILLS PYTHON */
+.s4p1photo1 {
+    width: 15%;
+    height: 15%;
+    left: 42%;
+    top: 6%;
+    background-image: url(img/skills/Python/2022-09-26_13-10-51.png);
+}
+
+.s4p1photo2 {
+    width: 15%;
+    height: 15%;
+    left: 58%;
+    top: 6%;
+    background-image: url(img/skills/Python/2022-09-26_13-14-03.png);
+}
+
+
+.s4p1photo3 {
+    width: 15%;
+    height: 15%;
+    left: 74%;
+    top: 6%;
+    background-image: url(img/skills/Python/2022-09-26_12-48-41.png);
+}
+
+
+.s4p1photo4 {
+    width: 15%;
+    height: 15%;
+    left: 42%;
+    top: 22%;
+    background-image: url(img/skills/Python/2022-09-26_12-52-02.png);
+}
+
+/* SKILLS HTML CSS */
+
+.s4p2photo1 {
+    width: 15%;
+    height: 15%;
+    left: 42%;
+    top: 6%;
+    background-image: url(img/skills/html_CSS/2022-09-26_13-04-32.png);
+}
+
+/* SKILLS JS */
+
+.s4p3photo1 {
+    width: 15%;
+    height: 15%;
+    left: 42%;
+    top: 6%;
+    background-image: url(img/skills/JS/2022-09-26_13-04-02.png);
+}
+
+.s4p1photo2 {
+    width: 15%;
+    height: 15%;
+    left: 58%;
+    top: 6%;
+    background-image: url(img/skills/JS/2022-09-26_12-56-48.png);
+}
+
+.s4p1photo3 {
+    width: 15%;
+    height: 15%;
+    left: 74%;
+    top: 6%;
+    background-image: url(img/skills/JS/2022-09-26_12-58-23.png);
+}
+
+/* SKILLS MYSQL SQLITE */
+
+.s4p4photo1 {
+    width: 15%;
+    height: 15%;
+    left: 42%;
+    top: 6%;
+    background-image: url(img/skills/dataBase/posterposs.png);
+}
+
+.s4p4photo2 {
+    width: 15%;
+    height: 15%;
+    left: 58%;
+    top: 6%;
+    background-image: url(img/skills/dataBase/2022-09-26_18-34-47.png);
+}
+
+/* EDUCATION SHOOOL */
+
+/* EDUCATION */
 /* ---- */
 
 .expiriencePhoto {
@@ -451,27 +545,22 @@
     left: 6%;
     font-size: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    /* border: 2px solid blue; */
-    width: 36%;
+    width: 34%;
 }
 
 .bartenderJobs h1 {
     color: whitesmoke;
-    /* border: 2px solid green; */
 }
 
 .bartenderJobs span {
     display: block;
     padding-bottom: 3%;
     width: 100%;
-    /* border: 2px solid red; */
 }
 
 .bartenderJobs a {
     color: whitesmoke;
-    /* text-decoration: none; */
     font-size: 260%;
-    /* border: 2px solid gold; */
     width: 100%;
 }
 
