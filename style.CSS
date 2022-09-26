@@ -96,8 +96,8 @@ a {
     position: absolute;
     right: 2%;
     top: -2%;
-    opacity: 0;
-    animation: show 4s 1;
+    opacity: 1;
+    /* animation: show 4s 1; */
     animation-fill-mode: forwards;
     animation-delay: 1s;
     z-index: 1;
@@ -118,6 +118,7 @@ a {
     position: absolute;
     border: 1px solid crimson;
     visibility: hidden;
+    width: max-content;
 }
 
 .head {
@@ -136,16 +137,25 @@ a {
     color: whitesmoke;
 }
 
+.menu div a {
+    position: relative;
+    visibility: hidden;
+    font-size: 150%;
+    margin: 5px;
+    text-transform: uppercase;
+    color: whitesmoke;
+    display: block;
+}
 
-.menu ul:hover {
+.menu li:hover #cap {
+    color: crimson;
+}
+
+.menu a:hover {
     color: crimson;
 }
 
 .menu li:hover a {
-    color: crimson;
-}
-
-.menu li:hover ul {
     visibility: visible;
 }
 
