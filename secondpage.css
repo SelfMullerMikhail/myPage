@@ -7,7 +7,7 @@
 
 }
 
-.slide:after {
+.slide::after {
     content: "";
     position: absolute;
     left: 0px;

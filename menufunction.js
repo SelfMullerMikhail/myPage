@@ -1,5 +1,6 @@
 "use strict"
 
+// links
 const twitter = document.querySelector(".twitter");
 const telegramm = document.querySelector(".telegramm");
 const instagramm = document.querySelector(".instagramm");
@@ -8,6 +9,10 @@ const number = document.querySelector(".number");
 const github = document.querySelector('.github')
 const linkedin = document.querySelector(".linkedin")
 const hhanter = document.querySelector(".hhanter")
+const messegeButton = document.querySelector(".messege");
+const writeMe = document.querySelector(".writeMe");
+
+
 
 
 function copyHidden(el, time) {
@@ -56,13 +61,47 @@ number.addEventListener("click", () => {
 
 })
 
-// const expiriencePhoto = document.querySelectorAll(".expiriencePhoto");
+// function lockScreenHidden
+function lockScreenHidden() {
+    lockScreen.style.opacity = ".5";
+    lockScreen.style.zIndex = "2";
+    lockScreen.style.display = 'block';
+}
 
-// console.log(expiriencePhoto)
-// document.addEventListener("mouseover", el => {
-//     if (!el.target.classList.contains("expiriencePhoto")) {
-//         return;
-//     }
-//     console.log(el);
-//     el.style.x = "100";
-// })
+// screensLock
+const lockScreen = document.querySelector(".lockScreen");
+const commentsButton = document.querySelector(".commentsButton");
+const comments = document.querySelector(".comments2");
+
+lockScreen.addEventListener("click", () => {
+    lockScreen.style.zIndex = '0';
+    lockScreen.style.display = 'none';
+    writeMe.style.display = "none";
+})
+
+messegeButton.addEventListener('click', () => {
+    writeMe.style.display = "block";
+    lockScreenHidden();
+})
+
+const borderCollor = document.querySelector(".borderCollor")
+// messege
+borderCollor.addEventListener("click", el => {
+    if (el.target.classList.contains('borderCollor')) {
+        return;
+    }
+    el.target.style.boxShadow = "0 0 10px 5px rgba(221, 221, 221, 1)";
+    console.log(el.target)
+})
+borderCollor.addEventListener("focusout", el => {
+    el.target.style.boxShadow = "";
+})
+
+commentsButton.addEventListener("click", () => {
+    comments.classList.toggle('hidden');
+})
+
+
+
+
+

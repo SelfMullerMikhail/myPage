@@ -41,7 +41,7 @@ a {
     height: 100%;
     width: 100%;
     background-color: black;
-    opacity: .7;
+    opacity: .6;
     z-index: -1;
 }
 
@@ -61,7 +61,7 @@ a {
     height: 100%;
     width: 100%;
     background-color: black;
-    opacity: .5;
+    opacity: .4;
     z-index: -1;
 }
 
@@ -159,8 +159,8 @@ a {
     position: absolute;
     right: 2%;
     top: -2%;
-    opacity: 0;
-    animation: show 4s 1;
+    opacity: 1;
+    /* animation: show 4s 1; */
     animation-fill-mode: forwards;
     animation-delay: 1s;
     z-index: 1;
@@ -236,6 +236,157 @@ a {
     left: 3%;
     top: 55%;
 }
+
+/* BLOCKS OF WRITE  */
+.lockScreen {
+    display: none;
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.borderCollor:hover {
+    border: 4px solid crimson;
+}
+
+
+.comments {
+    overflow: auto;
+    padding: 1%;
+    display: none;
+    background-color: rgb(36, 24, 8);
+    opacity: .5;
+    border: 4px solid whitesmoke;
+    position: absolute;
+    left: 51%;
+    top: 10%;
+    width: 45%;
+    height: 80%;
+    z-index: 3;
+}
+
+
+.comments2 {
+    overflow: auto;
+    opacity: .5;
+    position: absolute;
+    left: 2%;
+    top: 8%;
+    width: 33%;
+    height: 48%;
+    z-index: 3;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.comments2::-webkit-scrollbar {
+    width: 0;
+}
+
+.writeMe {
+    display: none;
+    background-color: rgb(36, 24, 8);
+    opacity: .5;
+    border: 4px solid whitesmoke;
+    position: absolute;
+    left: 51%;
+    top: 10%;
+    width: 45%;
+    height: 80%;
+    z-index: 3;
+}
+
+
+
+
+.writeMeName {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 30%;
+    height: 4%;
+}
+
+
+.writeMeMail {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 30%;
+    height: 4%;
+}
+
+.choice {
+    position: absolute;
+    top: 10%;
+    left: 38%;
+    width: 45%;
+    height: 10%;
+    /* border: 2px solid blue; */
+}
+
+.choice input {
+    width: 8%;
+    height: 40%;
+    /* border: 2px solid blue; */
+}
+
+.choice label {
+    /* margin-left: -10%; */
+    font-size: 220%;
+    /* border: 2px solid blue; */
+    color: whitesmoke;
+}
+
+.textMessage {
+    position: absolute;
+    left: 5%;
+    top: 18%;
+    height: 40%;
+    width: 90%;
+}
+
+.addFile {
+    position: absolute;
+    left: 5%;
+    top: 80%
+}
+
+.sendMessage {
+    position: absolute;
+    right: 10%;
+    bottom: 5%;
+    width: 15%;
+    height: 8%;
+}
+
+
+
+
+
+
+.commentMe {
+    display: none;
+    background-color: tan;
+    opacity: .5;
+    border: 4px solid whitesmoke;
+    position: absolute;
+    left: 51%;
+    top: 10%;
+    width: 45%;
+    height: 80%;
+}
+
+
+
+
+
+
+
 
 @keyframes show {
     0% {

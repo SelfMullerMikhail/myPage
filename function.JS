@@ -1,22 +1,42 @@
-"use strict"
+// "use strict"
+// window.addEventListener("DOMContentLoaded", () => {
 
-const headBlockButtom = document.querySelectorAll(".headBlockButtom")
+//     const form = () => {
+//         const forms = document.querySelectorAll('form'),
+//             inputs = document.querySelectorAll('input')
+//     }
 
-document.addEventListener("mouseover", el => {
-    if (!el.target.classList.contains("headBlockButtom")) {
-        return;
-    }
-    el.target.setAttribute("style", "color:black");
-    console.log(el);
-})
+//     const postData = async (url, data) => {
+//         let res = await fetch(ur, {
+//             method: "POST",
+//             body: data
+//         });
+//         return await res.text();
+//     }
 
-document.addEventListener("mouseout", el => {
-    if (!el.target.classList.contains("headBlockButtom")) {
-        return;
-    }
-    el.target.setAttribute("style", "color:white");
-    console.log(el);
-})
+//     // const clearInputs = () => {
+//     //     inputs.forEach(item => {
+//     //         item.value = "";
+//     //     });
+//     // };
 
-console.log(headBlockButtom)
+//     form.forEach(item =>
+//         item.addEventListener("submit", (e) => {
+//             e.preventDefault();
 
+//             const formData = new FormData(item);
+
+//             console.log(formData)
+//             postData("server.php", formData);
+
+//         }))
+
+
+
+//     // form.addEventListener('submit', el => {
+//     //     el.preventDefault()
+//     //     let formDataInfo = new FormData(form);
+//     //     console.log(formDataInfo)
+//     // })
+
+// })

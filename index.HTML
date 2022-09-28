@@ -15,8 +15,17 @@
         <!-- 1:1 MAIN s-->
         <div class="section" id="firstpage">
             <section id="hero">
+                <div class="lockScreen"></div>
                 <ul class="menu">
-                    <li> <a href="#" class="head" id="cap">Contact</a>
+                    <li> <a href="#" class="head commentsButton">Comments</a></li>
+                    <li> <a href=" #" class="head messege " id="cap">Сonnection</a>
+                        <!-- <div class="testing">
+                            <a href="#" class="commentsButton">Comments</a>
+                            <a href="#" class="messege">Messege</a>
+                        </div> -->
+                    </li>
+
+                    <li> <a href="#" class="head" id="cap">Contacts</a>
                         <div>
                             <span class="number">
                                 <a href="#">phone</a>
@@ -82,6 +91,31 @@
                         <a href="Profile (7).pdf" download="ppg" type="button" class="cta"> Portfolio</a>
                     </section>
                 </div>
+
+                <div class="writeMe borderCollor">
+                    <form action="send.php" id="formMessege" class="hid">
+                        <input class="writeMeName " type="name" placeholder="Name" name="fio">
+                        <input class="writeMeMail" type="email" placeholder="email" name="email">
+                        <div class="choice">
+                            <input type="radio" value="Question" name="Question" id="whoAreYou1">
+                            <label for="whoAreYou1">Question</label>
+                            <input type="radio" value="Proposal" name="Question" id="whoAreYou2">
+                            <label for="whoAreYou1">Proposal</label>
+                        </div>
+                        <textarea class="textMessage" name="text" id="" cols="30" rows="10"
+                            placeholder="text"></textarea>
+                        <input class="addFile" accept=".jpg .png .jpeg .gif .pdf" type="file" name="addFile" id="#">
+                        <button class="sendMessage"> SEND</button>
+                    </form>
+
+                </div>
+                <!-- <div class="comments borderCollor">
+                    <div class="disqusPosition" id="disqus_thread"></div>
+                </div> -->
+                <div class="comments2 hidden">
+                    <div class="disqusPosition" id="disqus_thread"></div>
+                </div>
+
             </section>
 
             <!-- HOBBY -->
@@ -546,6 +580,15 @@
     <script type="text/javascript" src="dist/fullpage.js"></script>
     <script type="text/javascript">
         var myFullpage = new fullpage('#fullpage', { sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'] });
+    </script>
+
+    <script>
+        (function () {
+            var d = document, s = d.createElement('script');
+            s.src = 'https://mihailkorniushenko-ru.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
     </script>
 
 </body>
