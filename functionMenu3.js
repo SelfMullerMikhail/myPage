@@ -71,7 +71,7 @@ number.addEventListener("click", () => {
 // function lockScreenHidden
 function lockScreenHidden() {
     lockScreen.style.opacity = ".5";
-    lockScreen.style.zIndex = "4";
+    lockScreen.style.zIndex = "2";
     lockScreen.style.display = 'block';
     alert("This feature is in development");
 }
